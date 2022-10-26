@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const BarsWrapper=styled.div`
     padding:20px;    
     height:100%;
-    width:470px;
+    width:350px;
     background-color: rgba(255,252,247);
     border-radius:15px;
     display:flex;

@@ -17,11 +17,10 @@ export const AppWrapper = styled.div`
 
     header{
         padding:20px;
-        padding-bottom:30px;
         margin:20px;
         background-color: rgba(236,117,93);
-        width:470px;
-        height: 50px;
+        width:350px;
+        min-height: 50px;
         border-radius:20px;
         color:white;
         display:flex;
