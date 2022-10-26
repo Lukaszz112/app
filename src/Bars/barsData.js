@@ -1,4 +1,4 @@
-export const barsData =[
+export const BarsData =[
     {
       "day": "mon",
       "amount": 17.45
@@ -22,9 +22,9 @@ export const barsData =[
     {
       "day": "sat",
       "amount": 43.28
-    }
+    },
     {
       "day": "sun",
       "amount": 25.48
     }
-  ]
+]

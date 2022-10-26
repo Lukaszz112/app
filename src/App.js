@@ -1,32 +1,30 @@
 import React, { Component } from 'react';
+import { AppWrapper } from './AppStyled';
+import Bars from './Bars/Bars';
 
 class App extends Component {
   render() {
     return (
-      <>
-        <header>My balance $921.48</header>
+      <AppWrapper>
+        <header>
+          <div className="left">
+            My balance  <h2>$921.48</h2>
+          </div>
+          <div className="right">
+            <div className="circle"></div>
+            <div className="circle2"></div>
+          </div>
+        </header>
+
         <main>
-          Spending - Last 7 days
-          mon
-          tue
-          wed
-          thu
-          fri
-          sat
-          sun
-
-          Total this month
-          $478.33
-
-          +2.4%
-          from last month
+          <Bars/>
         </main>
           
 
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Lukasz</a>.
+        {/* Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Lukasz</a>. */}
 
-      </>
+      </AppWrapper>
     );
   }
 }
