@@ -1,20 +1,13 @@
 import React, { Component } from 'react';
 import { AppWrapper } from './AppStyled';
-import Bars from './Bars/Bars';
+import Bars from './Components/Bars/Bars';
+import Header from './Components/Header/Header';
 
 class App extends Component {
   render() {
     return (
       <AppWrapper>
-        <header>
-          <div className="left">
-            My balance  <h2>$921.48</h2>
-          </div>
-          <div className="right">
-            <div className="circle"></div>
-            <div className="circle2"></div>
-          </div>
-        </header>
+        <Header/>
 
         <main>
           <Bars/>
