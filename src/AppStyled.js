@@ -9,4 +9,20 @@ export const AppWrapper = styled.div`
     align-items:center;
     flex-direction:column;
     background-color:rgba(247,233,220,0.7);
+
+    main{
+        padding:20px;    
+        min-height:1rem;
+        width:350px;
+        background-color: rgba(255,252,247);
+        border-radius:15px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:start;
+
+        h1{
+            margin:0;
+        }
+    }
 `

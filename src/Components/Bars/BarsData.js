@@ -26,5 +26,7 @@ export const BarsData =[
     {
       "day": "sun",
       "amount": 25.48
-    }
+    },
 ]
+
+

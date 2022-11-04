@@ -10,6 +10,7 @@ class App extends Component {
         <Header/>
 
         <main>
+        <h1>Spending - Last 7 days</h1>
           <Bars/>
         </main>
           
