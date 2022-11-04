@@ -18,7 +18,8 @@ export default class Bars extends Component {
               BarsData.map((bars,index) => {
               return(
                 <>
-                  <Bar amount={bars.amount} key={index} className={bars.day}/>
+                  {bars.amount>this.state.max ? this.setState({max:bars.amount}): null}
+                  <Bar amount={bars.amount} key={index} maxAmount={this.state.max}/>
                 </>
               )              
             })

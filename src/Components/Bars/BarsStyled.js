@@ -16,10 +16,6 @@ export const BarsWrapper=styled.div`
         flex-direction:row;
         justify-content:space-between;
         align-items:flex-end;
-
-        .wed{
-            background-color:hsl(186, 34%, 60%);
-        }
     }
 
 
@@ -43,14 +39,14 @@ export const Bar=styled.div`
     width: 10%;
     background-color: red;
     border-radius: 5px;
-    background-color:rgba(236,117,93);
+    background-color:${props => props.maxAmount>props.amount ?  "rgba(236,117,93)" : "hsl(186, 34%, 60%)" };
     position:relative;
 
-    :hover{
+    &:active{
         opacity:0.6;
     }
 
-    :hover::after{
+    &:active::after{
         content: "$${props => props.amount}";
         position:absolute;
         top: -30px;
@@ -62,6 +58,6 @@ export const Bar=styled.div`
         font-size:12px;
         color:white;
         background-color:hsl(25,47%,15%);
-        opacity: 1 !important;
+        opacity: 2;
     }
 `
