@@ -3,7 +3,8 @@ export const HeaderWrapper = styled.header`
         padding:20px;
         margin:20px;
         background-color: rgba(236,117,93);
-        width:350px;
+        width:80%;
+        max-width:350px;
         height: 70px;
         border-radius:20px;
         color:white;

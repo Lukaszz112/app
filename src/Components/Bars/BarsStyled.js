@@ -6,7 +6,6 @@ export const BarsWrapper=styled.div`
     display:flex;
     flex-direction:column;
 
-
     .bars{
         height: 10rem;
         width:100%;
@@ -17,8 +16,6 @@ export const BarsWrapper=styled.div`
         justify-content:space-between;
         align-items:flex-end;
     }
-
-
 
     .days{
         margin:0;
@@ -32,6 +29,7 @@ export const BarsWrapper=styled.div`
             width: 10%;
         }
     }
+
 `
 
 export const Bar=styled.div`
