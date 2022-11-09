@@ -5,6 +5,7 @@ export const AppWrapper = styled.div`
     height:100vh;
     width:100vw;
     display:flex;
+    font-family: 'DM Sans', sans-serif;
     justify-content:center;
     align-items:center;
     flex-direction:column;

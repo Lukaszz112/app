@@ -13,15 +13,14 @@ export const HeaderWrapper = styled.header`
         h2{
             margin:0;
             font-size: 1.55em;
-            font-family: sans-serif;
-            font-weight: normal;
+            font-weight:700;
             transition: all .2s ease-in-out;
         }
 
         p{
             margin:0;
             font-size:1em;
-            font-weight: 200;
+            font-weight: 400;
             transition: all .2s ease-in-out;
         }
 

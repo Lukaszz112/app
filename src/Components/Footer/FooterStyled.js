@@ -15,7 +15,8 @@ export const FooterWrapper = styled.div`
     }
     
     h2{
-        font-size:2em;
+        font-size:2.5em;
+        font-weight:700;
         transition: all .4s ease-in-out;
     }
 
