@@ -19,14 +19,14 @@ export const AppWrapper = styled.div`
         width:80%;
         max-width:500px;
         height:40%;
-        min-height:300px;
+        min-height:450px;
         background-color: rgba(255,252,247);
         border-radius:15px;
         display:flex;
         flex-direction:column;
         justify-content:center;
         align-items:start;
-        transition: ease all .2s;
+        transition: ease all .4s;
 
         h1{
             margin:0;
@@ -34,9 +34,9 @@ export const AppWrapper = styled.div`
         }
     }
 
-    @media (max-width:375px){
-        main{
-            height:42%;
+    @media (max-height:780px){           
+            main{
+                min-height:400px;
+            }           
         }
-    }
 `

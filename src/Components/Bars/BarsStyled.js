@@ -5,9 +5,10 @@ export const BarsWrapper=styled.div`
     border-radius:15px;
     display:flex;
     flex-direction:column;
+    justify-content:center;
 
     .bars{
-        height: 10rem;
+        height: 80%;
         width:100%;
         margin:0;
         ${'' /* background-color: rgba(0,0,0,0.2); */}
@@ -18,10 +19,10 @@ export const BarsWrapper=styled.div`
     }
 
     .days{
-        margin:0;
+        margin-bottom:20px;
         height: 20%;
         border-bottom:1px solid rgba(0,0,0,0.1);
-        padding-bottom:5%;
+        padding-bottom:1%;
         align-items:center;
         text-align: center;
         transition: all .4s ease-in-out;
@@ -31,11 +32,6 @@ export const BarsWrapper=styled.div`
         }
     }
 
-    @media (max-height:780px){           
-            .days{
-                padding-bottom:1%;
-            }           
-        }
 
 `
 
