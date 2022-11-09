@@ -50,15 +50,21 @@ export const Bar=styled.div`
     &:active::after{
         content: "$${props => props.amount}";
         position:absolute;
-        top: -30px;
-        left: -5px;
-        padding:5px;
+        top: -35px;
+        left: -16%;
+        padding:15%;
         border-radius:3px;
         text-align:center;
-        width:35px;
-        font-size:12px;
+        width:100%;
+        font-size:.7em;
         color:white;
         background-color:hsl(25,47%,15%);
         opacity: 2;
+        transition: all .3s ease-in-out;
+
+        @media (max-width: 375px){
+            font-size: .5em;
+            top: -25px;
+        }
     }
 `
