@@ -4,23 +4,25 @@ export const HeaderWrapper = styled.header`
         margin:20px;
         background-color: rgba(236,117,93);
         width:80%;
-        max-width:400px;
+        max-width:500px;
         height: 70px;
         border-radius:20px;
         color:white;
         display:flex;
 
         h2{
-        margin:0;
-        font-size: 28px;
-        font-family: sans-serif;
-        font-weight: normal;
+            margin:0;
+            font-size: 1.55em;
+            font-family: sans-serif;
+            font-weight: normal;
+            transition: all .2s ease-in-out;
         }
 
         p{
             margin:0;
-            font-size:18px;
+            font-size:1em;
             font-weight: 200;
+            transition: all .2s ease-in-out;
         }
 
         .left{
@@ -54,5 +56,14 @@ export const HeaderWrapper = styled.header`
             border-radius:100%;
             position:relative;
             z-index:1;
+        }
+
+        @media (max-height:780px){
+            h2{
+                font-size: 1.44em;
+            }
+            p{
+                font-size: .89em;
+            }
         }
 `

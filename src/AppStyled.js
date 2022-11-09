@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 export const AppWrapper = styled.div`
-    padding-left:0;
+    padding:0;
     margin:0;
     height:100vh;
     width:100vw;
@@ -10,11 +10,16 @@ export const AppWrapper = styled.div`
     flex-direction:column;
     background-color:rgba(247,233,220,0.7);
 
+    *{
+        font-size: 18px;
+    }
+
     main{
         padding:20px;
         width:80%;
-        max-width:400px;
+        max-width:500px;
         height:40%;
+        min-height:300px;
         background-color: rgba(255,252,247);
         border-radius:15px;
         display:flex;
@@ -25,6 +30,7 @@ export const AppWrapper = styled.div`
 
         h1{
             margin:0;
+            font-size:1.55em;
         }
     }
 

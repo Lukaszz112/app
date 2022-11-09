@@ -24,11 +24,19 @@ export const BarsWrapper=styled.div`
         padding-bottom:5%;
         align-items:center;
         text-align: center;
+        transition: all .4s ease-in-out;
 
         p{
             width: 10%;
         }
     }
+
+    @media (max-height:780px){           
+            .days{
+                padding-bottom:1%;
+            }           
+        }
+
 `
 
 export const Bar=styled.div`
