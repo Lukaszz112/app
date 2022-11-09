@@ -26,7 +26,7 @@ export const FooterWrapper = styled.div`
     }
 
     .left{
-        align-items:flex-start;
+        justify-content:flex-start;
     }
     
     .right{

@@ -19,9 +19,9 @@ export const BarsWrapper=styled.div`
 
     .days{
         margin:0;
-        height: 2rem;
+        height: 20%;
         border-bottom:1px solid rgba(0,0,0,0.1);
-        padding-bottom:20px;
+        padding-bottom:5%;
         align-items:center;
         text-align: center;
 
@@ -29,7 +29,6 @@ export const BarsWrapper=styled.div`
             width: 10%;
         }
     }
-
 `
 
 export const Bar=styled.div`

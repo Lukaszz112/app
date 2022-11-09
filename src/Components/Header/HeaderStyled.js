@@ -4,7 +4,7 @@ export const HeaderWrapper = styled.header`
         margin:20px;
         background-color: rgba(236,117,93);
         width:80%;
-        max-width:350px;
+        max-width:400px;
         height: 70px;
         border-radius:20px;
         color:white;
